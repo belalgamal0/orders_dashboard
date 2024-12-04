@@ -84,7 +84,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/orders_challenge.git
+git clone https://github.com/belalgamal0/orders_challenge.git
 Install dependencies:
 
 bash
