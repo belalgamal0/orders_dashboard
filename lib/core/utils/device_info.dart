@@ -1,9 +1,10 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/foundation.dart';
 
 enum FormFactorType { monitor, smallPhone, largePhone, tablet }
 
-
 class DeviceScreen {
+  static bool isWeb() => kIsWeb;
   static FormFactorType get(BuildContext context) {
     var shortestSide = MediaQuery.of(context).size.shortestSide;
     if (shortestSide <= 300) return FormFactorType.smallPhone;
